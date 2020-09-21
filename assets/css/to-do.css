@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(72, 87, 169)
+}
+
+main {
+    display: flex;
+}
+
+section {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(24, 29, 54);
+}
+
+.bienvenida {
+    margin: 50px;
+    width: 40%;
+    height: auto;
+    background-color: hsla(0, 0%, 100%, 0.63);
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 25px;
+    width: 100%;
+}
+
+img {
+    border-radius: 50%;
+    width: 65%;
+    border: 1px #ffffff dashed;
+    border-width: 4px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    font-weight: 30;
+    color: #ffffff;
+    text-shadow: 0 0 30px #ffffff;
+    text-decoration: underline;
+
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    margin: auto;
+    border: 1px solid red;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(72, 87, 169);
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.lista:hover{
+    background-color: #fff;
+    color:rgb(72, 87, 169);
+    text-decoration: underline;
+}
+
+.tareas {
+    margin: 50px;
+    width: 90%;
+    height: auto;
+    background-color: hsla(0, 0%, 100%, 0.63);
+}
+.agregar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+li{
+    padding: 5px;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0;
+}
+.mensaje{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: hsla(0, 0%, 100%, 0.63);
+    height: 35px;
+    align-items: center;
+    padding: 0 10px;
+}
+.teclado{
+    width: 60%;
+    margin: auto;
+    padding: 25px 0;
+    flex-direction: row;
+    justify-content: center;
+}
+.letra{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid hsla(0, 0%, 100%, 0.63);
+}
+.letra:hover{
+   background-color: rgb(72, 87, 169);
+   color: white;
+}
+.espacio{
+    width: 105px;
+}
+.fila{
+    padding: 3px;
+}
+.cAceptar{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.aceptar{
+    padding: 5px;
+}
+.aceptar:hover{
+    background-color: rgb(72, 87, 169);
+    color: white;
+}
+.tarea{
+    width: 90%;
+    margin: auto;
+}

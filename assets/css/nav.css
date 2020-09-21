@@ -1,0 +1,32 @@
+:root{
+    --colorSuave:#99d8d3;
+    --colorFuerte: #ea415f;
+}
+header {
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 0 8px var(--colorFuerte);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    align-items: center;
+    background: rgb(72,87,169);
+background: linear-gradient(90deg, rgba(72,87,169,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+nav>a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #000000;
+    
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+
+.fas {
+    font-size: 50px;
+    color: #fff;
+}
+
+
