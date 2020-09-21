@@ -26,8 +26,6 @@ agregarLista.addEventListener('click',()=>{
 
 
 //Agregar texto a la barrra
-
-
 const letra = document.querySelectorAll(".letra")
 
 const mensaje = document.getElementById("mensaje")

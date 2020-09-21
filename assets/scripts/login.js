@@ -32,7 +32,7 @@ const validardatos = (Lcorreo, Lcontraseña) => {
             document.getElementById('alert').innerText = 'Hecho'
             window.location='../html/to-do.html'
             agregarnombre(nombre)
-        }if(correo != Lcorreo && contraseña != Lcontraseña) {
+        }else{
             document.getElementById('alert').innerText = 'Verifique crendenciales'
         }
     }
