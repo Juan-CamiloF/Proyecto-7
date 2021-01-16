@@ -197,6 +197,7 @@ button{
 @media screen and (max-width:614px){
     .letra{
         width: 45px;
+        height: 25px;
     }
 }
 @media screen and (max-width:552px){
@@ -211,9 +212,56 @@ button{
         width: 98%;
     }
 }
+@media screen and (max-width:522px){
+    .teclado{
+        width: 100%;
+    }
+    .letra{
+        margin: 0 2px;
+        width: 40px;
+    }
+}
 @media screen and (max-width:492px){
     .bienvenida{
         width: 60%;
     }
-    
 }
+@media screen and (max-width:456px){
+    .letra{
+        width: 35px;
+    }
+}
+@media screen and (max-width:412px){
+    .lista{
+        width: 50%;
+    }
+    .letra{
+        width: 30px;
+        height: 30px;
+    }
+    .bienvenida{
+        width: 70%;
+    }
+}
+@media screen and (max-width:350px){
+    .letra{
+        width: 28px;
+        height: 28px;
+    }
+}
+@media screen and (max-width:338px){
+    .letra{
+        width: 25px;
+        height: 25px;
+    }
+}
+@media screen and (max-width:306px){
+    .letra{
+        width: 23px;
+        height: 23px;
+    }
+    .lista{
+        width: 60%;
+    }
+}
+
