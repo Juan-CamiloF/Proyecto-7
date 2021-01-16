@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(72, 87, 169)
 }
-
 main {
     display: flex;
 }
@@ -17,14 +15,12 @@ section {
     border-radius: 15px;
     box-shadow: 0 0 10px rgb(24, 29, 54);
 }
-
 .bienvenida {
     margin: 50px;
     width: 40%;
     height: auto;
     background-color: hsla(0, 0%, 100%, 0.63);
 }
-
 .img {
     display: flex;
     justify-content: center;
@@ -32,20 +28,17 @@ section {
     padding: 25px;
     width: 100%;
 }
-
 img {
     border-radius: 50%;
     width: 65%;
     border: 1px #ffffff dashed;
     border-width: 4px;
 }
-
 .texto {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 h2 {
     padding: 20px;
     font-weight: 30;
@@ -54,7 +47,6 @@ h2 {
     text-decoration: underline;
 
 }
-
 .lista {
     display: flex;
     align-items: center;
@@ -69,7 +61,6 @@ h2 {
     color: #ffffff;
 
 }
-
 .lista:hover{
     background-color: #fff;
     color:rgb(72, 87, 169);
@@ -109,11 +100,12 @@ h3{
     padding: 0 10px;
 }
 .teclado{
-    width: 60%;
+    width: 70%;
     margin: auto;
+    display: flex;
     padding: 25px 0;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .letra{
     width: 50px;
@@ -130,10 +122,15 @@ h3{
 .fila{
     padding: 3px;
 }
-.cAceptar{
-    padding: 10px 0;
+.cBtn{
+    padding: 10px 5px;
     display: flex;
     justify-content: center;
+}
+button{
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
 }
 .aceptar{
     padding: 5px;
@@ -145,4 +142,78 @@ h3{
 .tarea{
     width: 90%;
     margin: auto;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.tachar{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:1340px){
+   .teclado{
+        width: 80%;
+   }
+}
+@media screen and (max-width:1266px){
+    .bienvenida, .tareas{
+        margin: 25px;
+    }
+    .lista{
+        width: 40%;
+    }
+}
+@media screen and (max-width:1092px){
+    .teclado{
+        width: 90%;
+    }
+}
+@media screen and (max-width:980px){
+    .bienvenida, .tareas{
+       margin: 20px;
+    }
+    .teclado{
+        width: 95%;
+    }
+}
+@media screen and (max-width:920px){
+    main{
+        flex-direction: column;
+    }
+    .bienvenida, .tareas{
+        margin: 25px auto;
+    }
+}
+@media screen and (max-width:655px){
+    .bienvenida{
+        width: 50%;
+    }
+    .tareas{
+       width: 95%;
+    }
+}
+@media screen and (max-width:614px){
+    .letra{
+        width: 45px;
+    }
+}
+@media screen and (max-width:552px){
+    .fila{
+        display: flex;
+        padding: 3px;
+    }
+    .letra{
+        margin: 0 3px;
+    }
+    .tareas{
+        width: 98%;
+    }
+}
+@media screen and (max-width:492px){
+    .bienvenida{
+        width: 60%;
+    }
+    
 }
