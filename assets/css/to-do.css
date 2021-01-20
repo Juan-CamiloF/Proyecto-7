@@ -47,6 +47,13 @@ h2 {
     text-decoration: underline;
 
 }
+p{
+    text-align: center;
+    margin: 10px 0;
+}
+.btnLista{
+    display: flex;
+}
 .lista {
     display: flex;
     align-items: center;
@@ -233,7 +240,7 @@ button{
 }
 @media screen and (max-width:412px){
     .lista{
-        width: 50%;
+        width: 45%;
     }
     .letra{
         width: 30px;
@@ -261,7 +268,8 @@ button{
         height: 23px;
     }
     .lista{
-        width: 60%;
+        width: 45%;
+        text-align: center;
     }
 }
 
