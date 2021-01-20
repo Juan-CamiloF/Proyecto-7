@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/to-do.css">
-    <link rel="icon" href="assets/img/icono.png">
+    <link rel="icon" href="../img/icono.png">
 
     <title>Tablero</title>
 
@@ -24,12 +24,16 @@
                 <h2 id="perfilNombre">
                 </h2>
             </div>
-            <div>
+            <div class="btnLista">
                 <a href="#" class="lista" id="lista">Agregar Lista</a>
+                <a href="#" class="lista" id="borrarLista">Borrar Listas</a>
             </div>
+            <p>Click en la lista para tacharla</p>
+           
+            
             <div class="agregar">
                 <ol id="agregar">
-                    <li><a href="#" class="li">Lista</a></li>
+                    
                 </ol>
             </div>
         </section>
@@ -110,5 +114,6 @@
 
 
 <script src="../scripts/tareas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 </html>
